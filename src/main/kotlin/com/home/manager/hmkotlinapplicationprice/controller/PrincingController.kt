@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.ResponseBody
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping("/princing")
+@RequestMapping("/pricing")
 class PrincingController(
         private val pricingService: PricingService
 ) {
 
-    @GetMapping()
+    @PostMapping()
     fun getPricing(@RequestBody propertieDto: PropertieDto): ResponseEntity<Any>{
         try{
             val pricingDto:PricingDto = this.pricingService.getPricing(propertieDto)

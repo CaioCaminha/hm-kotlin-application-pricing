@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.home.manager</groupId>
 	<artifactId>hm-kotlin-application-price</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>hm-kotlin-application-price</name>
 	<description>Calculate properties price</description>
 	<properties>
